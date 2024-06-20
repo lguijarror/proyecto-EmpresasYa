@@ -1,0 +1,285 @@
+[
+  {
+    "// comentario": "10 entradas en el documento"
+  },
+  {
+    "nameEmpresa": "Tech Solutions Inc.",
+    "categoria": "Tecnología",
+    "prodServ": "Productos",
+    "listaProd": ["Hardware", "Software"],
+    "listaServ": [],
+    "logo": "https://alepaz.online/proyectoFinal/logo/logo01.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Calle Tecnología 456",
+    "codigoPostal": 28015,
+    "paradaMetro": "Estación Tecnología",
+    "locMapa": [40.484356, -3.712034],
+    "telefono": ["345678901", "567890123"],
+    "email": "info@techsolutionsinc.com",
+    "web": "https://www.techsolutionsinc.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/techsolutions" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/techsolutions" }
+    ],
+    "whatsapp": false,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "aprobada": true,
+    "popularidad": 53
+  },
+  {
+    "nameEmpresa": "Art & Design Studio",
+    "categoria": "Arte y Diseño",
+    "prodServ": "Ambos",
+    "listaProd": [],
+    "listaServ": ["Diseño gráfico", "Arte digital"],
+    "logo": "https://alepaz.online/proyectoFinal/logo/logo02.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Avenida Creatividad 789",
+    "codigoPostal": 28016,
+    "paradaMetro": "Estación Creatividad",
+    "locMapa": [40.482811, -3.718191],
+    "telefono": ["678901234", "890123456"],
+    "email": "info@artdesignstudio.com",
+    "web": "https://www.artdesignstudio.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/artdesignstudio" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/artdesignstudio" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "aprobada": true,
+    "popularidad": 82
+  },
+  {
+    "nameEmpresa": "Financial Advisors Ltd.",
+    "categoria": "Finanzas",
+    "prodServ": "Servicios",
+    "listaProd": [],
+    "listaServ": ["Asesoría financiera", "Planificación de inversiones"],
+    "logo": "https://alepaz.online/proyectoFinal/logo/logo03.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Plaza Finanzas 123",
+    "codigoPostal": 28017,
+    "paradaMetro": "Estación Finanzas",
+    "locMapa": [40.479794, -3.713433],
+    "telefono": ["123456789", "987654321"],
+    "email": "info@financialadvisors.com",
+    "web": "https://www.financialadvisors.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/financialadvisors" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/financialadvisors" }
+    ],
+    "whatsapp": false,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "aprobada": true,
+    "popularidad": 37
+  },
+  {
+    "nameEmpresa": "Fashion Style Shop",
+    "categoria": "Moda",
+    "prodServ": "Productos",
+    "listaProd": ["Ropa", "Accesorios de moda"],
+    "listaServ": [],
+    "logo": "https://alepaz.online/proyectoFinal/logo/logo04.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Calle Moda 456",
+    "codigoPostal": 28018,
+    "paradaMetro": "Estación Moda",
+    "locMapa": [40.485641, -3.715895],
+    "telefono": ["456789012", "890123456"],
+    "email": "info@fashionstyleshop.com",
+    "web": "https://www.fashionstyleshop.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/fashionstyleshop" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/fashionstyleshop" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": false,
+    "aprobada": true,
+    "popularidad": 61
+  },
+  {
+    "nameEmpresa": "Travel Adventures",
+    "categoria": "Viajes",
+    "prodServ": "Ambos",
+    "listaProd": [],
+    "listaServ": ["Paquetes turísticos", "Reservas de hoteles"],
+    "logo": "https://alepaz.online/proyectoFinal/logo/logo05.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Avenida Viajes 789",
+    "codigoPostal": 28019,
+    "paradaMetro": "Estación Viajes",
+    "locMapa": [40.483569, -3.715159],
+    "telefono": ["567890123", "901234567"],
+    "email": "info@traveladventures.com",
+    "web": "https://www.traveladventures.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/traveladventures" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/traveladventures" }
+    ],
+    "whatsapp": false,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "aprobada": false,
+    "popularidad": 28
+  },
+  {
+    "nameEmpresa": "Health & Fitness Center",
+    "categoria": "Salud y Fitness",
+    "prodServ": "Servicios",
+    "listaProd": [],
+    "listaServ": ["Entrenamiento personalizado", "Clases de yoga"],
+    "logo": "https://alepaz.online/proyectoFinal/logo/logo06.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Calle Salud 123",
+    "codigoPostal": 28020,
+    "paradaMetro": "Estación Fitness",
+    "locMapa": [40.485111, -3.710857],
+    "telefono": ["678901234", "012345678"],
+    "email": "info@healthfitness.com",
+    "web": "https://www.healthfitness.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/healthfitness" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/healthfitness" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "aprobada": true,
+    "popularidad": 74
+  },
+  {
+    "nameEmpresa": "Construction Solutions",
+    "categoria": "Construcción",
+    "prodServ": "Ambos",
+    "listaProd": ["Materiales de construcción", "Herramientas"],
+    "listaServ": ["Servicios de reforma", "Asesoría técnica"],
+    "logo": "https://alepaz.online/proyectoFinal/logo/logo07.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Avenida Construcción 456",
+    "codigoPostal": 28021,
+    "paradaMetro": "Estación Construcción",
+    "locMapa": [40.479744, -3.706534],
+    "telefono": ["234567890", "456789012"],
+    "email": "info@constructionsolutions.com",
+    "web": "https://www.constructionsolutions.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/constructionsolutions" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/constructionsolutions" }
+    ],
+    "whatsapp": false,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "aprobada": true,
+    "popularidad": 45
+  },
+  {
+    "nameEmpresa": "Legal Advisors",
+    "categoria": "Legal",
+    "prodServ": "Servicios",
+    "listaProd": [],
+    "listaServ": ["Asesoría legal", "Representación legal"],
+    "logo": "https://alepaz.online/proyectoFinal/logo/logo08.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Plaza Legal 789",
+    "codigoPostal": 28022,
+    "paradaMetro": "Estación Legal",
+    "locMapa": [40.481895, -3.716245],
+    "telefono": ["567890123", "345678901"],
+    "email": "info@legaladvisors.com",
+    "web": "https://www.legaladvisors.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/legaladvisors" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/legaladvisors" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "aprobada": true,
+    "popularidad": 66
+  },
+  {
+    "nameEmpresa": "Education Hub",
+    "categoria": "Educación",
+    "prodServ": "Servicios",
+    "listaProd": [],
+    "listaServ": ["Cursos en línea", "Tutorías"],
+    "logo": "https://alepaz.online/proyectoFinal/logo/logo09.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Calle Educación 123",
+    "codigoPostal": 28023,
+    "paradaMetro": "Estación Educación",
+    "locMapa": [40.480291, -3.713896],
+    "telefono": ["678901234", "123456789"],
+    "email": "info@educationhub.com",
+    "web": "https://www.educationhub.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/educationhub" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/educationhub" }
+    ],
+    "whatsapp": false,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "aprobada": true,
+    "popularidad": 79
+  },
+  {
+    "nameEmpresa": "Green Energy Solutions",
+    "categoria": "Energía",
+    "prodServ": "Ambos",
+    "listaProd": ["Paneles solares", "Turbinas eólicas"],
+    "listaServ": ["Instalación de energías renovables", "Consultoría energética"],
+    "logo": "https://alepaz.online/proyectoFinal/logo/logo10.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Avenida Energía 456",
+    "codigoPostal": 28024,
+    "paradaMetro": "Estación Energía",
+    "locMapa": [40.484012, -3.719123],
+    "telefono": ["345678901", "567890123"],
+    "email": "info@greenenergysolutions.com",
+    "web": "https://www.greenenergysolutions.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/greenenergysolutions" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/greenenergysolutions" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "aprobada": true,
+    "popularidad": 55
+  }
+]

@@ -1,0 +1,351 @@
+nameEmpresa:Gourmet Delights
+categoria:Restaurante
+prodServ:Ambos
+listaProd:Platos gourmet, Productos delicatessen
+listaServ:Catering, Reservas de mesa
+direccion:Calle Gourmet 123
+codigoPostal:28034
+paradaMetro:Estación Gourmet
+locMapa[0]:40.488453075790034
+locMapa[1]:-3.7321176217614154
+telefono_0:123456789
+telefono_1:987654321
+email:info@gourmetdelights.com
+web:https://www.gourmetdelights.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/gourmetdelights
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/gourmetdelights
+whatsapp:true
+telWhatsapp:666778899
+condiciones:true
+popularidad:42
+aprobada:true
+
+
+nameEmpresa:Sushi House
+categoria:Restaurante
+prodServ:Ambos
+listaProd:Sushi, Sashimi, Makis
+listaServ:Catering, Reservas de mesa
+direccion:Avenida Sushi 456
+codigoPostal:28035
+paradaMetro:Estación Sushi
+locMapa[0]:40.49070402885352
+locMapa[1]:-3.722106738013
+telefono_0:234567890
+telefono_1:456789012
+email:info@sushihouse.com
+web:https://www.sushihouse.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/sushihouse
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/sushihouse
+whatsapp:true
+telWhatsapp:666778899
+condiciones:true
+popularidad:88
+aprobada:true
+
+
+nameEmpresa:La Parrilla Argentina
+categoria:Restaurante
+prodServ:Ambos
+listaProd:Asado argentino, Empanadas
+listaServ:Catering, Reservas de mesa
+direccion:Calle Argentina 789
+codigoPostal:28036
+paradaMetro:Estación Argentina
+locMapa[0]:40.486960044963105
+locMapa[1]:-3.7198774629043663
+telefono_0:345678901
+telefono_1:567890123
+email:info@laparrillaargentina.com
+web:https://www.laparrillaargentina.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/laparrillaargentina
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/laparrillaargentina
+whatsapp:true
+telWhatsapp:666778899
+condiciones:true
+popularidad:75
+aprobada:true
+
+
+nameEmpresa:Seafood Lovers
+categoria:Restaurante
+prodServ:Productos
+listaProd:Mariscos frescos, Pescados del día
+direccion:Avenida Mariscos 123
+codigoPostal:28037
+paradaMetro:Estación Mariscos
+locMapa[0]:40.48542731171918
+locMapa[1]:-3.7219011228221333 
+telefono_0:678901234
+telefono_1:890123456
+email:info@seafoodlovers.com
+web:https://www.seafoodlovers.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/seafoodlovers
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/seafoodlovers
+whatsapp:true
+telWhatsapp:666778899
+condiciones:true
+popularidad:60
+aprobada:true
+
+
+nameEmpresa:Vegetarian Delights
+categoria:Restaurante
+prodServ:Productos
+listaProd:Platos vegetarianos, Ensaladas gourmet
+direccion:Calle Vegetariana 456
+codigoPostal:28038
+paradaMetro:Estación Vegetariana
+locMapa[0]:40.48280242471248
+locMapa[1]:-3.725024780438176
+telefono_0:456789012
+telefono_1:678901234
+email:info@vegetariandelights.com
+web:https://www.vegetariandelights.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/vegetariandelights
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/vegetariandelights
+whatsapp:true
+telWhatsapp:666778899
+condiciones:true
+popularidad:47
+aprobada:true
+
+
+nameEmpresa:Pasta Italiana
+categoria:Restaurante
+prodServ:Productos
+listaProd:Pasta fresca, Salsas caseras
+direccion:Avenida Pasta 789
+codigoPostal:28039
+paradaMetro:Estación Pasta
+locMapa[0]:40.480099184313744
+locMapa[1]:-3.7259418248019984
+telefono_0:890123456
+telefono_1:012345678
+email:info@pastaitaliana.com
+web:https://www.pastaitaliana.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/pastaitaliana
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/pastaitaliana
+whatsapp:true
+telWhatsapp:666778899
+condiciones:true
+popularidad:92
+aprobada:true
+
+
+nameEmpresa:Burger Joint
+categoria:Restaurante
+prodServ:Productos
+listaProd:Hamburguesas gourmet, Patatas fritas
+direccion:Calle Hamburguesas 123
+codigoPostal:28040
+paradaMetro:Estación Hamburguesas
+locMapa[0]:40.48080209006813
+locMapa[1]:-3.728001276693672
+telefono_0:234567890
+telefono_1:456789012
+email:info@burgerjoint.com
+web:https://www.burgerjoint.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/burgerjoint
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/burgerjoint
+whatsapp:true
+telWhatsapp:666778899
+condiciones:true
+popularidad:58
+aprobada:true
+
+
+nameEmpresa:Mexican Fiesta
+categoria:Restaurante
+prodServ:Productos
+listaProd:Tacos, Burritos
+direccion:Calle Fiesta 789
+codigoPostal:28042
+paradaMetro:Estación Fiesta
+locMapa[0]:40.481243912775255
+locMapa[1]:-3.7307472125492365
+telefono_0:678901234
+telefono_1:890123456
+email:info@mexicanfiesta.com
+web:https://www.mexicanfiesta.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/mexicanfiesta
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/mexicanfiesta
+whatsapp:true
+telWhatsapp:666778899
+condiciones:true
+popularidad:64
+aprobada:true
+
+
+nameEmpresa:Pizzeria Italiana
+categoria:Restaurante
+prodServ:Productos
+listaProd:Pizzas artesanales, Calzones
+direccion:Avenida Pizzas 456
+codigoPostal:28051
+paradaMetro:Estación Pizzas
+locMapa[0]:40.48265657133615
+locMapa[1]:-3.7246998681479667
+telefono_0:890123456
+telefono_1:012345678
+email:info@pizzeriaitaliana.com
+web:https://www.pizzeriaitaliana.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/pizzeriaitaliana
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/pizzeriaitaliana
+whatsapp:true
+telWhatsapp:666778899
+condiciones:true
+popularidad:81
+aprobada:true
+
+
+nameEmpresa:Creperie Paris
+categoria:Restaurante
+prodServ:Productos
+listaProd:Crepes, Galletas
+direccion:Calle Crepes 789
+codigoPostal:28052
+paradaMetro:Estación Crepes
+locMapa[0]:40.48413852298224
+locMapa[1]:-3.722228238491137
+telefono_0:234567890
+telefono_1:456789012
+email:info@creperieparis.com
+web:https://www.creperieparis.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/creperieparis
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/creperieparis
+whatsapp:true
+telWhatsapp:666778899
+condiciones:true
+popularidad:70
+aprobada:true
+
+
+nameEmpresa:Thai Delights
+categoria:Restaurante
+prodServ:Productos
+listaProd:Comida tailandesa, Sopas asiáticas
+direccion:Avenida Thai 456
+codigoPostal:28053
+paradaMetro:Estación Thai
+locMapa[0]:40.48565699349799
+locMapa[1]:-3.7203595765838026
+telefono_0:678901234
+telefono_1:890123456
+email:info@thaidelights.com
+web:https://www.thaidelights.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/thaidelights
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/thaidelights
+whatsapp:true
+telWhatsapp:666778899
+condiciones:true
+popularidad:55
+aprobada:true
+
+nameEmpresa:Indian Delicacies
+categoria:Restaurante
+prodServ:Productos
+listaProd:Curry, Tandoori
+direccion:Calle Curry 789
+codigoPostal:28054
+paradaMetro:Estación Curry
+locMapa[0]:40.48713624893089
+locMapa[1]:-3.719681895381898
+telefono_0:890123456
+telefono_1:012345678
+email:info@indiandelicacies.com
+web:https://www.indiandelicacies.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/indiandelicacies
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/indiandelicacies
+whatsapp:true
+telWhatsapp:666778899
+condiciones:true
+popularidad:78
+aprobada:true
+
+
+nameEmpresa:El Buen Sabor
+categoria:Restaurante
+prodServ:Ambos
+listaProd:Platos tradicionales, Menú del día
+listaServ:Comidas para llevar, Catering
+direccion:Calle Buen Sabor 789
+codigoPostal:28045
+paradaMetro:Estación Buen Sabor
+locMapa[0]:40.492853
+locMapa[1]:-3.717831
+telefono:111222333, 444555666
+email:info@elbuensabor.com
+web:https://www.elbuensabor.com
+redes:Instagram: https://instagram.com/elbuensabor, Facebook: https://facebook.com/elbuensabor
+whatsapp:false
+telWhatsapp:
+condiciones:true
+aprobada:false
+popularidad:55
+
+
+nameEmpresa:La Esquina del Sabor
+categoria:Restaurante
+prodServ:Ambos
+listaProd:Platos caseros, Tapas variadas
+listaServ:Reservas de mesa, Comidas para llevar
+direccion:Calle Esquina 567
+codigoPostal:28056
+paradaMetro:Estación Esquina
+locMapa[0]:40.498240
+locMapa[1]:-3.720979
+telefono:777888999, 999888777
+email:info@esquinadelsabor.com
+web:https://www.esquinadelsabor.com
+redes:
+whatsapp:true
+telWhatsapp:333444555
+condiciones:true
+aprobada:false
+popularidad:42
+
+
+nameEmpresa:Bar La Terraza
+categoria:Bar
+prodServ:Bebidas
+listaProd:Vinos, Cervezas artesanales
+listaServ:Terraza, Eventos privados
+direccion:Calle Terraza 234
+codigoPostal:28067
+paradaMetro:Estación Terraza
+locMapa[0]:40.505632
+locMapa[1]:-3.725717
+telefono:222333444, 444333222
+email:info@laterraza.com
+web:https://www.laterraza.com
+redes:Facebook: https://facebook.com/laterraza
+whatsapp:true
+telWhatsapp:111222333
+condiciones:true
+aprobada:false
+popularidad:38

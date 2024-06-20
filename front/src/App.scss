@@ -1,0 +1,19 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@import './Fonts';
+@import  './Variables';
+@import  './Common';
+
+@import './components/Header/Header';
+@import './components/Footer/Footer';
+@import './components/BreadCrumb/BreadCrumb';
+@import './components/Title/Titles';
+@import './components/Directorio/Directorio';
+@import './components/InfoComercial/InfoComercial';
+
+@import './pages/HomePage';
+@import './pages/Contacto';
+@import './pages/Perfil';
+@import './pages/EmpresaForm';
+@import './pages/EmpresaDetalle';
+@import './pages/Dashboard/Dashboard';

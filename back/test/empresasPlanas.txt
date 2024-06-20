@@ -1,0 +1,28 @@
+nameEmpresa:Upgrade Hub
+categoria:Centro Educativo
+prodServ:Servicios
+listaServ[0]:Formación Digital
+listaServ[1]:Formación Tecnológica
+listaServ[2]:Clases Online
+direccion:C. de Orense, 62
+codigoPostal:28020
+paradaMetro:Cuzco
+locMapa[0]:40.46031898778083
+locMapa[1]:-3.6938235101240022
+telefono[0]:722262305
+telefono[1]:674108474
+email:info@upgrade-hub.com
+web:https://www.upgrade-hub.com/
+redes[0][redSocial]:Facebook
+redes[0][url]:https://www.facebook.com/UpgradeHub/
+redes[1][redSocial]:Instagram
+redes[1][url]:https://www.instagram.com/upgrade_hub/
+redes[2][redSocial]:LinkedIn
+redes[2][url]:https://www.linkedin.com/school/upgradehub/
+whatsapp:true
+telWhatsapp:722262305
+condiciones:true
+aprobada:true
+popularidad:101
+logo:
+galeriaFotos:

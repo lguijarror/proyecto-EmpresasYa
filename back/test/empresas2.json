@@ -1,0 +1,285 @@
+[
+  {
+    "// comentario": "10 entradas en el documento"
+  },
+  {
+    "nameEmpresa": "Tech Innovations",
+    "categoria": "Tecnología",
+    "prodServ": "Ambos",
+    "listaProd": ["Producto X", "Producto Y"],
+    "listaServ": ["Servicio Z"],
+    "logo": "https://url-del-logo.com/logo24.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Calle Innovación 123",
+    "codigoPostal": 28024,
+    "paradaMetro": "Estación Innovación",
+    "locMapa": [40.48965287210927, -3.727770617184409],
+    "telefono": ["111222333", "444555666"],
+    "email": "info@techinnovations.com",
+    "web": "https://www.techinnovations.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/techinnovations" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/techinnovations" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 55,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Green Eco Solutions",
+    "categoria": "Medio Ambiente",
+    "prodServ": "Servicios",
+    "listaProd": [],
+    "listaServ": ["Consultoría ambiental", "Energías renovables"],
+    "logo": "https://url-del-logo.com/logo25.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Avenida Sostenibilidad 456",
+    "codigoPostal": 28025,
+    "paradaMetro": "Estación Sostenibilidad",
+    "locMapa": [40.49022841232096, -3.7214894093549495],
+    "telefono": ["222333444", "555666777"],
+    "email": "info@greenecosolutions.com",
+    "web": "https://www.greenecosolutions.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/greenecosolutions" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/greenecosolutions" }
+    ],
+    "whatsapp": false,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 72,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Healthy Food Delights",
+    "categoria": "Alimentación",
+    "prodServ": "Productos",
+    "listaProd": ["Alimentos saludables", "Suplementos"],
+    "listaServ": [],
+    "logo": "https://url-del-logo.com/logo26.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Calle Saludable 789",
+    "codigoPostal": 28026,
+    "paradaMetro": "Estación Saludable",
+    "locMapa": [40.48686718772583, -3.727710075422198],
+    "telefono": ["333444555", "666777888"],
+    "email": "info@healthyfooddelights.com",
+    "web": "https://www.healthyfooddelights.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/healthyfooddelights" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/healthyfooddelights" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 88,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Educational Solutions",
+    "categoria": "Educación",
+    "prodServ": "Ambos",
+    "listaProd": ["Material educativo", "Software educativo"],
+    "listaServ": ["Formación online", "Consultoría educativa"],
+    "logo": "https://url-del-logo.com/logo27.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Avenida Educativa 123",
+    "codigoPostal": 28027,
+    "paradaMetro": "Estación Educativa",
+    "locMapa": [40.48467999912437, -3.7285576600931605],
+    "telefono": ["444555666", "777888999"],
+    "email": "info@educationalsolutions.com",
+    "web": "https://www.educationalsolutions.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/educationalsolutions" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/educationalsolutions" }
+    ],
+    "whatsapp": false,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 61,
+    "aprobada": false
+  },
+  {
+    "nameEmpresa": "Adventure Sports",
+    "categoria": "Deportes",
+    "prodServ": "Servicios",
+    "listaProd": [],
+    "listaServ": ["Actividades al aire libre", "Escuelas de deporte"],
+    "logo": "https://url-del-logo.com/logo28.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Calle Aventura 456",
+    "codigoPostal": 28028,
+    "paradaMetro": "Estación Aventura",
+    "locMapa": [40.48754635284159, -3.7320388114203307],
+    "telefono": ["555666777", "888999000"],
+    "email": "info@adventuresports.com",
+    "web": "https://www.adventuresports.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/adventuresports" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/adventuresports" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 47,
+    "aprobada": false
+  },
+  {
+    "nameEmpresa": "Interior Design Solutions",
+    "categoria": "Interiorismo",
+    "prodServ": "Ambos",
+    "listaProd": ["Mobiliario", "Decoración"],
+    "listaServ": ["Proyectos de interiorismo", "Asesoría de decoración"],
+    "logo": "https://url-del-logo.com/logo29.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Plaza Diseño 789",
+    "codigoPostal": 28029,
+    "paradaMetro": "Estación Diseño",
+    "locMapa": [40.48775355439002, -3.7234116103051695],
+    "telefono": ["666777888", "999000111"],
+    "email": "info@interiordesignsolutions.com",
+    "web": "https://www.interiordesignsolutions.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/interiordesignsolutions" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/interiordesignsolutions" }
+    ],
+    "whatsapp": false,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 94,
+    "aprobada": false
+  },
+  {
+    "nameEmpresa": "Tech Support Experts",
+    "categoria": "Tecnología",
+    "prodServ": "Servicios",
+    "listaProd": [],
+    "listaServ": ["Soporte técnico", "Mantenimiento de sistemas"],
+    "logo": "https://url-del-logo.com/logo30.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Calle Soporte 123",
+    "codigoPostal": 28030,
+    "paradaMetro": "Estación Soporte",
+    "locMapa": [40.483338497377424, -3.7252405798820694],
+    "telefono": ["777888999", "000111222"],
+    "email": "info@techsupportexperts.com",
+    "web": "https://www.techsupportexperts.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/techsupportexperts" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/techsupportexperts" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 38,
+    "aprobada": false
+  },
+  {
+    "nameEmpresa": "Beauty & Wellness Spa",
+    "categoria": "Belleza y Bienestar",
+    "prodServ": "Servicios",
+    "listaProd": [],
+    "listaServ": ["Spa y tratamientos", "Cuidado personal"],
+    "logo": "https://url-del-logo.com/logo31.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Avenida Bienestar 456",
+    "codigoPostal": 28031,
+    "paradaMetro": "Estación Bienestar",
+    "locMapa": [40.48353712905573, -3.7295278496612814],
+    "telefono": ["888999000", "111222333"],
+    "email": "info@beautywellnessspa.com",
+    "web": "https://www.beautywellnessspa.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/beautywellnessspa" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/beautywellnessspa" }
+    ],
+    "whatsapp": false,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 80,
+    "aprobada": false
+  },
+  {
+    "nameEmpresa": "Real Estate Solutions",
+    "categoria": "Inmobiliaria",
+    "prodServ": "Ambos",
+    "listaProd": ["Venta de propiedades", "Alquiler de inmuebles"],
+    "listaServ": ["Gestión inmobiliaria", "Asesoría legal"],
+    "logo": "https://url-del-logo.com/logo32.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Calle Inmobiliaria 123",
+    "codigoPostal": 28032,
+    "paradaMetro": "Estación Inmobiliaria",
+    "locMapa": [40.48613583936127, -3.7294843240797664],
+    "telefono": ["123456789", "987654321"],
+    "email": "info@realestatesolutions.com",
+    "web": "https://www.realestatesolutions.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/realestatesolutions" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/realestatesolutions" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 76,
+    "aprobada": false
+  },
+  {
+    "nameEmpresa": "Event Planning Experts",
+    "categoria": "Eventos",
+    "prodServ": "Servicios",
+    "listaProd": [],
+    "listaServ": ["Planificación de eventos", "Organización de conferencias"],
+    "logo": "https://url-del-logo.com/logo33.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Plaza Eventos 789",
+    "codigoPostal": 28033,
+    "paradaMetro": "Estación Eventos",
+    "locMapa": [40.48103763760051, -3.7247835612761633],
+    "telefono": ["234567890", "456789012"],
+    "email": "info@eventplanningexperts.com",
+    "web": "https://www.eventplanningexperts.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/eventplanningexperts" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/eventplanningexperts" }
+    ],
+    "whatsapp": false,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 65,
+    "aprobada": false
+  }
+]

@@ -1,0 +1,12 @@
+.breadcrumb{
+border-bottom: 2px solid #7E57BC;
+    .breadcrumb-item{
+        a{
+            color: #7E57BC;
+        }
+
+        &.active{
+            font-family: 'Roboto Bold', sans-serif;
+        }
+    }
+}

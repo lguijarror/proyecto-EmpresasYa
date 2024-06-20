@@ -1,0 +1,319 @@
+// LAURA A PARTIR DE AQUÍ
+
+nameEmpresa:Tech Solutions Inc.
+categoria:Tecnología
+prodServ:Productos
+listaProd[0]:Hardware
+listaProd[1]:Software
+listaServ[]:
+direccion:Calle Tecnología 456
+codigoPostal:28015
+paradaMetro:Estación Tecnología
+locMapa[0]:40.484356
+locMapa[1]:-3.712034
+telefono[0]:345678901
+telefono[1]:567890123
+email:info@techsolutionsinc.com
+web:https://www.techsolutionsinc.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/techsolutions
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/techsolutions
+whatsapp:false
+telWhatsapp:666778899
+condiciones:true
+aprobada:true
+popularidad:53
+
+
+nameEmpresa:Art & Design Studio
+categoria:Arte y Diseño
+prodServ:Ambos
+listaProd[]:
+listaServ[0]:Diseño gráfico
+listaServ[1]:Arte digital
+direccion:Avenida Creatividad 789
+codigoPostal:28016
+paradaMetro:Estación Creatividad
+locMapa[0]:40.482811
+locMapa[1]:-3.718191
+telefono[0]:678901234
+telefono[1]:890123456
+email:info@artdesignstudio.com
+web:https://www.artdesignstudio.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/artdesignstudio
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/artdesignstudio
+whatsapp:true
+telWhatsapp:666778899
+condiciones:true
+aprobada:true
+popularidad:82
+
+
+nameEmpresa:Financial Advisors Ltd.
+categoria:Finanzas
+prodServ:Servicios
+listaProd[]:
+listaServ[0]:Asesoría financiera
+listaServ[1]:Planificación de inversiones
+direccion:Plaza Finanzas 123
+codigoPostal:28017
+paradaMetro:Estación Finanzas
+locMapa[0]:40.479794
+locMapa[1]:-3.713433
+telefono[0]:123456789
+telefono[1]:987654321
+email:info@financialadvisors.com
+web:https://www.financialadvisors.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/financialadvisors
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/financialadvisors
+whatsapp:false
+telWhatsapp:666778899
+condiciones:true
+aprobada:true
+popularidad:37
+
+
+nameEmpresa:Fashion Style Shop
+categoria:Moda
+prodServ:Productos
+listaProd[0]:Ropa
+listaProd[1]:Accesorios de moda
+listaServ[]:
+direccion:Calle Moda 456
+codigoPostal:28018
+paradaMetro:Estación Moda
+locMapa[0]:40.485641
+locMapa[1]:-3.715895
+telefono[0]:456789012
+telefono[1]:890123456
+email:info@fashionstyleshop.com
+web:https://www.fashionstyleshop.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/fashionstyleshop
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/fashionstyleshop
+whatsapp:true
+telWhatsapp:666778899
+condiciones:false
+aprobada:true
+popularidad:61
+
+
+nameEmpresa:Travel Adventures
+categoria:Viajes
+prodServ:Ambos
+listaProd[]:
+listaServ[0]:Paquetes turísticos
+listaServ[1]:Reservas de hoteles
+direccion:Avenida Viajes 789
+codigoPostal:28019
+paradaMetro:Estación Viajes
+locMapa[0]:40.483569
+locMapa[1]:-3.715159
+telefono[0]:567890123
+telefono[1]:901234567
+email:info@traveladventures.com
+web:https://www.traveladventures.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/traveladventures
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/traveladventures
+whatsapp:false
+telWhatsapp:666778899
+condiciones:true
+aprobada:false
+popularidad:28
+
+
+nameEmpresa:Health & Fitness Center
+categoria:Salud y Fitness
+prodServ:Servicios
+listaProd[]:
+listaServ[0]:Entrenamiento personalizado
+listaServ[1]:Clases de yoga
+direccion:Calle Salud 123
+codigoPostal:28020
+paradaMetro:Estación Fitness
+locMapa[0]:40.485111
+locMapa[1]:-3.710857
+telefono[0]:678901234
+telefono[1]:012345678
+email:info@healthfitness.com
+web:https://www.healthfitness.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/healthfitness
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/healthfitness
+whatsapp:true
+telWhatsapp:666778899
+condiciones:true
+aprobada:true
+popularidad:74
+
+
+nameEmpresa:Construction Solutions
+categoria:Construcción
+prodServ:Ambos
+listaProd[0]:Materiales de construcción
+listaProd[1]:Herramientas
+listaServ[0]:Servicios de reforma
+listaServ[1]:Asesoría técnica
+direccion:Avenida Construcción 456
+codigoPostal:28021
+paradaMetro:Estación Construcción
+locMapa[0]:40.479744
+locMapa[1]:-3.706534
+telefono[0]:234567890
+telefono[1]:456789012
+email:info@constructionsolutions.com
+web:https://www.constructionsolutions.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/constructionsolutions
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/constructionsolutions
+whatsapp:false
+telWhatsapp:666778899
+condiciones:true
+aprobada:true
+popularidad:45
+
+
+nameEmpresa:Legal Advisors
+categoria:Legal
+prodServ:Servicios
+listaProd[]:
+listaServ[0]:Asesoría legal
+listaServ[1]:Representación legal
+direccion:Plaza Legal 789
+codigoPostal:28022
+paradaMetro:Estación Legal
+locMapa[0]:40.481895
+locMapa[1]:-3.716245
+telefono[0]:567890123
+telefono[1]:345678901
+email:info@legaladvisors.com
+web:https://www.legaladvisors.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/legaladvisors
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/legaladvisors
+whatsapp:true
+telWhatsapp:666778899
+condiciones:true
+aprobada:true
+popularidad:66
+
+
+nameEmpresa:Education Hub
+categoria:Educación
+prodServ:Servicios
+listaProd[]:
+listaServ[0]:Cursos en línea
+listaServ[1]:Tutorías
+direccion:Calle Educación 123
+codigoPostal:28023
+paradaMetro:Estación Educación
+locMapa[0]:40.480291
+locMapa[1]:-3.713896
+telefono[0]:678901234
+telefono[1]:123456789
+email:info@educationhub.com
+web:https://www.educationhub.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/educationhub
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/educationhub
+whatsapp:false
+telWhatsapp:666778899
+condiciones:true
+aprobada:true
+popularidad:79
+
+
+nameEmpresa:Green Energy Solutions
+categoria:Energía
+prodServ:Ambos
+listaProd[0]:Paneles solares
+listaProd[1]:Turbinas eólicas
+listaServ[0]:Instalación de energías renovables
+listaServ[1]:Consultoría energética
+direccion:Avenida Energía 456
+codigoPostal:28024
+paradaMetro:Estación Energía
+locMapa[0]:40.484012
+locMapa[1]:-3.719123
+telefono[0]:345678901
+telefono[1]:567890123
+email:info@greenenergysolutions.com
+web:https://www.greenenergysolutions.com
+redes[0][redSocial]:Twitter
+redes[0][url]:https://twitter.com/greenenergysolutions
+redes[1][redSocial]:Facebook
+redes[1][url]:https://facebook.com/greenenergysolutions
+whatsapp:true
+telWhatsapp:666778899
+condiciones:true
+aprobada:true
+popularidad:55
+
+// LAURA HASTA AQUÍ
+
+
+_______________________________
+
+nameEmpresa:Upgrade Hub
+categoria:Centro Educativo
+prodServ:Servicios
+listaServ[0]:Formación Digital
+listaServ[1]:Formación Tecnológica
+listaServ[2]:Clases Online
+direccion:C. de Orense, 62
+codigoPostal:28020
+paradaMetro:Cuzco
+locMapa[0]:40.46031898778083
+locMapa[1]:-3.6938235101240022
+telefono[0]:722262305
+telefono[1]:674108474
+email:info@upgrade-hub.com
+web:https://www.upgrade-hub.com/
+redes[0][redSocial]:Facebook
+redes[0][url]:https://www.facebook.com/UpgradeHub/
+redes[1][redSocial]:Instagram
+redes[1][url]:https://www.instagram.com/upgrade_hub/
+redes[2][redSocial]:LinkedIn
+redes[2][url]:https://www.linkedin.com/school/upgradehub/
+whatsapp:true
+telWhatsapp:722262305
+condiciones:true
+aprobada:true
+popularidad:101
+
+nameEmpresa:Cafetería Bar Restaurante El Chorrón
+categoria:Restaurante
+prodServ:Productos
+listaProd[0]:Comida casera
+listaProd[1]:Carta de vinos
+listaProd[2]:Terraza exterior
+listaServ[]:
+direccion:C. del Valle de Pinares Llanos, 23
+codigoPostal:28035
+paradaMetro:Lacoma
+locMapa[0]:40.485452197034554
+locMapa[1]:-3.7219506010521606
+telefono[0]:917305759
+email:elchorron@gmail.com
+web:https://elchorron.es
+redes[0][redSocial]:Facebook
+redes[0][url]:alepaz.online
+redes[1][redSocial]:Instagram
+redes[1][url]:alepaz.online
+whatsapp:false
+telWhatsapp:null
+condiciones:true
+aprobada:false
+popularidad:null

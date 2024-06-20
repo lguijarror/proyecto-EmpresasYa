@@ -1,0 +1,312 @@
+{
+	"info": {
+		"_postman_id": "941bfacd-280d-4fe8-9fc5-115e832c99e3",
+		"name": "EmpresasYa! SERVER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33245704"
+	},
+	"item": [
+		{
+			"name": "USER",
+			"item": [
+				{
+					"name": "POST USER",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nombre\": \"Alejandro\",\n  \"apellidos\": \"Paz Montes\",\n  \"telefono\": 663315218,\n  \"password\": \"1234abc!\",\n  \"email\": \"alepazmont@gmail.com\",\n  \"conditions\": true,\n  \"tipoUsuario\": \"agencia publicitaria\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://directorio-empresas.vercel.app/user/register",
+							"protocol": "https",
+							"host": [
+								"directorio-empresas",
+								"vercel",
+								"app"
+							],
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST USER LOGIN",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"password\": \"1234abc!\",\n  \"email\": \"alepazmont@gmail.com\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://directorio-empresas.vercel.app/user/login",
+							"protocol": "https",
+							"host": [
+								"directorio-empresas",
+								"vercel",
+								"app"
+							],
+							"path": [
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST PASSWORD VALIDATION",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"plainTextPassword\": \"1234abc!\",\n  \"hash\": \"$2b$10$ZlM8VX1h0O.pgWbHaRm.6eIdWZ9UPJ3ogL1E4Mxhzn4Xk4/KRC0dG\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://directorio-empresas.vercel.app/password/validate",
+							"protocol": "https",
+							"host": [
+								"directorio-empresas",
+								"vercel",
+								"app"
+							],
+							"path": [
+								"password",
+								"validate"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "EMPRESAS",
+			"item": [
+				{
+					"name": "GET ALL EMPRESAS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://directorio-empresas.vercel.app/empresas/",
+							"protocol": "https",
+							"host": [
+								"directorio-empresas",
+								"vercel",
+								"app"
+							],
+							"path": [
+								"empresas",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ID EMPRESAS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://directorio-empresas.vercel.app/empresas/665af39633ae1488b0aed3d7",
+							"protocol": "https",
+							"host": [
+								"directorio-empresas",
+								"vercel",
+								"app"
+							],
+							"path": [
+								"empresas",
+								"665af39633ae1488b0aed3d7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST EMPRESAS",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NThmMTIyOGE4Njg1NThlYWI4MmFjOCIsImVtYWlsIjoiYWxlcGF6bW9udEBnbWFpbC5jb20iLCJpYXQiOjE3MTcyMzY1MjEsImV4cCI6MTcxNzMyMjkyMX0.RlsJ7M7AS2HEM3WS-adm8Mpq8Wndg97ydOLNQvDOOQc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n      \"nameEmpresa\": \"Mi Empresa 1\",\n      \"categoria\": \"Tecnología\",\n      \"prodServ\": \"Ambos\",\n      \"listaProdServ\": [\"Producto A\", \"Servicio B\"],\n      \"logo\": \"https://url-del-logo.com/logo1.png\",\n      \"galeriaFotos\": [\"https://url-de-imagen1.com/foto1.jpg\", \"https://url-de-imagen1.com/foto2.jpg\"],\n      \"direccion\": \"Calle Ficticia 123\",\n      \"codigoPostal\": 28001,\n      \"paradaMetro\": \"Estación Ficticia\",\n      \"locMapa\": [40.4165, -3.70256],\n      \"telefono\": [\"123456789\", \"987654321\"],\n      \"email\": \"miempresa1@example.com\",\n      \"web\": \"https://www.miempresa1.com\",\n      \"redes\": [\"https://twitter.com/miempresa1\", \"https://facebook.com/miempresa1\"],\n      \"condiciones\": true\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://directorio-empresas.vercel.app/empresas/register",
+							"protocol": "https",
+							"host": [
+								"directorio-empresas",
+								"vercel",
+								"app"
+							],
+							"path": [
+								"empresas",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST MANY EMPRESAS",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NThmMTIyOGE4Njg1NThlYWI4MmFjOCIsImVtYWlsIjoiYWxlcGF6bW9udEBnbWFpbC5jb20iLCJpYXQiOjE3MTcyMzY1MjEsImV4cCI6MTcxNzMyMjkyMX0.RlsJ7M7AS2HEM3WS-adm8Mpq8Wndg97ydOLNQvDOOQc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[{\n    \"nameEmpresa\": \"Tech Solutions Inc.\",\n    \"categoria\": \"Tecnología\",\n    \"prodServ\": \"Productos\",\n    \"listaProd\": [\"Hardware\", \"Software\"],\n    \"listaServ\": [],\n    \"logo\": \"https://url-del-logo.com/logo15.png\",\n    \"galeriaFotos\": [\n      \"https://url-de-imagen15.com/foto1.jpg\",\n      \"https://url-de-imagen15.com/foto2.jpg\"\n    ],\n    \"direccion\": \"Calle Tecnología 456\",\n    \"codigoPostal\": 28015,\n    \"paradaMetro\": \"Estación Tecnología\",\n    \"locMapa\": [40.425, -3.698],\n    \"telefono\": [\"345678901\", \"567890123\"],\n    \"email\": \"info@techsolutionsinc.com\",\n    \"web\": \"https://www.techsolutionsinc.com\",\n    \"redes\": [\n      \"https://twitter.com/techsolutions\",\n      \"https://facebook.com/techsolutions\"\n    ],\n    \"condiciones\": true\n  },\n  {\n    \"nameEmpresa\": \"Art & Design Studio\",\n    \"categoria\": \"Arte y Diseño\",\n    \"prodServ\": \"Ambos\",\n    \"listaProd\": [],\n    \"listaServ\": [\"Diseño gráfico\", \"Arte digital\"],\n    \"logo\": \"https://url-del-logo.com/logo16.png\",\n    \"galeriaFotos\": [\n      \"https://url-de-imagen16.com/foto1.jpg\",\n      \"https://url-de-imagen16.com/foto2.jpg\"\n    ],\n    \"direccion\": \"Avenida Creatividad 789\",\n    \"codigoPostal\": 28016,\n    \"paradaMetro\": \"Estación Creatividad\",\n    \"locMapa\": [40.418, -3.702],\n    \"telefono\": [\"678901234\", \"890123456\"],\n    \"email\": \"info@artdesignstudio.com\",\n    \"web\": \"https://www.artdesignstudio.com\",\n    \"redes\": [\n      \"https://twitter.com/artdesignstudio\",\n      \"https://facebook.com/artdesignstudio\"\n    ],\n    \"condiciones\": true\n  },\n  {\n    \"nameEmpresa\": \"Financial Advisors Ltd.\",\n    \"categoria\": \"Finanzas\",\n    \"prodServ\": \"Servicios\",\n    \"listaProd\": [],\n    \"listaServ\": [\"Asesoría financiera\", \"Planificación de inversiones\"],\n    \"logo\": \"https://url-del-logo.com/logo17.png\",\n    \"galeriaFotos\": [\n      \"https://url-de-imagen17.com/foto1.jpg\",\n      \"https://url-de-imagen17.com/foto2.jpg\"\n    ],\n    \"direccion\": \"Plaza Finanzas 123\",\n    \"codigoPostal\": 28017,\n    \"paradaMetro\": \"Estación Finanzas\",\n    \"locMapa\": [40.421, -3.694],\n    \"telefono\": [\"123456789\", \"987654321\"],\n    \"email\": \"info@financialadvisors.com\",\n    \"web\": \"https://www.financialadvisors.com\",\n    \"redes\": [\n      \"https://twitter.com/financialadvisors\",\n      \"https://facebook.com/financialadvisors\"\n    ],\n    \"condiciones\": true\n  }]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://directorio-empresas.vercel.app/empresas/register",
+							"protocol": "https",
+							"host": [
+								"directorio-empresas",
+								"vercel",
+								"app"
+							],
+							"path": [
+								"empresas",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PATCH EMPRESAS",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NThmMTIyOGE4Njg1NThlYWI4MmFjOCIsImVtYWlsIjoiYWxlcGF6bW9udEBnbWFpbC5jb20iLCJpYXQiOjE3MTcyMzY1MjEsImV4cCI6MTcxNzMyMjkyMX0.RlsJ7M7AS2HEM3WS-adm8Mpq8Wndg97ydOLNQvDOOQc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"nameEmpresa\": \"Mi Empresa 1 MODIFICADA\",\n        \"categoria\": \"Tecnología\",\n        \"prodServ\": \"Ambos\",\n        \"listaProd\": [\"Producto A\"],\n        \"listaServ\": [\"Servicio B\"],\n        \"logo\": \"https://url-del-logo.com/logo1.png\",\n        \"galeriaFotos\": [\"https://url-de-imagen1.com/foto1.jpg\", \"https://url-de-imagen1.com/foto2.jpg\"],\n        \"direccion\": \"Calle Ficticia 123\",\n        \"codigoPostal\": 28001,\n        \"paradaMetro\": \"Estación Ficticia\",\n        \"locMapa\": [40.4165, -3.70256],\n        \"telefono\": [\"123456789\", \"987654321\"],\n        \"email\": \"miempresa1@example.com\",\n        \"web\": \"https://www.miempresa1.com\",\n        \"redes\": [\"https://twitter.com/miempresa1\", \"https://facebook.com/miempresa1\"],\n        \"condiciones\": true\n      }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://directorio-empresas.vercel.app/empresas/665af39633ae1488b0aed3d7",
+							"protocol": "https",
+							"host": [
+								"directorio-empresas",
+								"vercel",
+								"app"
+							],
+							"path": [
+								"empresas",
+								"665af39633ae1488b0aed3d7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE EMPRESAS",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NThmMTIyOGE4Njg1NThlYWI4MmFjOCIsImVtYWlsIjoiYWxlcGF6bW9udEBnbWFpbC5jb20iLCJpYXQiOjE3MTcyMzY1MjEsImV4cCI6MTcxNzMyMjkyMX0.RlsJ7M7AS2HEM3WS-adm8Mpq8Wndg97ydOLNQvDOOQc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://directorio-empresas.vercel.app/empresas/665af39633ae1488b0aed3d7",
+							"protocol": "https",
+							"host": [
+								"directorio-empresas",
+								"vercel",
+								"app"
+							],
+							"path": [
+								"empresas",
+								"665af39633ae1488b0aed3d7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

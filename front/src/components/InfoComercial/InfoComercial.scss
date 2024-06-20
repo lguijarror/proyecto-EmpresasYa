@@ -1,0 +1,25 @@
+.register-company-cards{
+    .card{
+        border: none;
+        background-color: #e1cfe2;
+        
+        .card-header{
+            background-color: #e1cfe2;
+            margin: 0 auto;    
+            border: none;
+            .card-img-top{
+                max-width: 220px;
+                width: 100%;
+            }
+        }
+
+        .card-body{
+            text-align: center;
+
+            .card-title{
+                font-family: 'Roboto Medium', sans-serif;
+            }
+        }
+    }
+}
+

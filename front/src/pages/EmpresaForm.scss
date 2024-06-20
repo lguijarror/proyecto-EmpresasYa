@@ -1,0 +1,166 @@
+@use "sass:math";
+
+// Estilos globales
+
+form {
+  background-color: $background-color;
+  padding: math.div($spacing-unit, 2) * 2;
+  border-radius: $border-radius;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  div {
+    margin-bottom: $spacing-unit;
+  }
+
+  label {
+    font-weight: 600;
+  }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+select,
+textarea {
+  padding: math.div($spacing-unit, 2);
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  font-size: $font-size;
+}
+
+input[type="file"] {
+  display: block;
+  margin-top: math.div($spacing-unit, 2);
+}
+
+input[type="checkbox"] {
+  margin-right: math.div($spacing-unit, 2);
+}
+
+button {
+  background-color: $primary-color;
+  color: #ffffff;
+  border: none;
+  padding: $spacing-unit;
+  border-radius: $border-radius;
+  font-size: $font-size;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+// Estilos específicos del formulario
+.form-title {
+  font-size: 1.5em;
+  margin-bottom: math.div($spacing-unit, 2) * 2;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+
+  .checkbox-group {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.array-input {
+  display: flex;
+  flex-direction: column;
+
+  input {
+    margin-top: math.div($spacing-unit, 2);
+  }
+}
+
+.draggable-item {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+
+  button {
+    background-color: #ff4d4f;
+    border-radius: 100%;
+    font-size: 15px;
+
+    &:hover {
+      background-color: #b03134 !important;
+    }
+  }
+}
+
+.image-preview {
+  margin: 0.5rem;
+
+  img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+  }
+}
+
+.logo-upload {
+  display: flex;
+  align-items: center;
+}
+
+.sublabel {
+  font-style: italic;
+  color: #696969;
+  font-size: small;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+
+  & button {
+    flex: 1;
+    margin-right: $spacing-unit;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.create-red {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+
+  & button {
+    background-color: #ff4d4f;
+    height: 34px;
+    width: 34px;
+    border-radius: 100%;
+    padding: 0;
+    font-size: 23px;
+  }
+}
+
+.image-preview {
+  width: 78px;
+}
+
+// Estilos responsivos
+@media (max-width: 600px) {
+  .button-group {
+    flex-direction: column;
+
+    & button {
+      margin-right: 0;
+      margin-bottom: $spacing-unit;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

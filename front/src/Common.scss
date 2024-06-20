@@ -1,0 +1,97 @@
+#root {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  background-color: #e1cfe2;
+}
+
+.content {
+  margin-bottom: 30px;
+}
+
+a {
+  color: #000;
+  font-weight: 500;
+  text-decoration: inherit;
+  transition: 0.3s ease-in-out;
+}
+
+h2,
+h3{
+  font-family: 'Comfortaa Bold', sans-serif;
+}
+
+b,
+strong{
+  font-family: 'Roboto Bold', sans-serif;
+}
+
+.bg-purple {
+  background-color: #7e57bc;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+
+}
+
+form  {
+  button{
+    background-color: #7E57BC;
+    padding: 10px;
+    color: #fff;
+  }
+}
+
+.btn {
+  background-color: #7e57bc;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #7e57bc !important;
+    opacity: 0.7;
+    color: #fff;
+    filter: none;
+  }
+}
+
+.jumbotron {
+  border: 3px solid #7e57bc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #7e57bc;
+  color: #fff;
+}
+
+/* Alert */
+
+.info-message {
+  position: fixed;
+  width: 350px;
+  bottom: 0;
+  left: 1rem;
+  transition: opacity 0.5s ease-out;
+  z-index: 10000;
+
+  &.fade-out {
+    opacity: 0;
+  }
+
+  .btn-close{
+    &:hover{
+      background-color: #d1e7dd;
+    }
+  }
+}

@@ -1,0 +1,618 @@
+[
+  {
+    "nameEmpresa": "Gourmet Delights",
+    "categoria": "Restaurante",
+    "prodServ": "Ambos",
+    "listaProd": ["Platos gourmet", "Productos delicatessen"],
+    "listaServ": ["Catering", "Reservas de mesa"],
+    "logo": "https://url-del-logo.com/logo34.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Calle Gourmet 123",
+    "codigoPostal": 28034,
+    "paradaMetro": "Estación Gourmet",
+    "locMapa": [40.488453075790034, -3.7321176217614154],
+    "telefono": ["123456789", "987654321"],
+    "email": "info@gourmetdelights.com",
+    "web": "https://www.gourmetdelights.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/gourmetdelights" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/gourmetdelights" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 42,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Sushi House",
+    "categoria": "Restaurante",
+    "prodServ": "Ambos",
+    "listaProd": ["Sushi", "Sashimi", "Makis"],
+    "listaServ": ["Catering", "Reservas de mesa"],
+    "logo": "https://url-del-logo.com/logo35.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Avenida Sushi 456",
+    "codigoPostal": 28035,
+    "paradaMetro": "Estación Sushi",
+    "locMapa": [40.49070402885352, -3.722106738013],
+    "telefono": ["234567890", "456789012"],
+    "email": "info@sushihouse.com",
+    "web": "https://www.sushihouse.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/sushihouse" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/sushihouse" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 88,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "La Parrilla Argentina",
+    "categoria": "Restaurante",
+    "prodServ": "Ambos",
+    "listaProd": ["Asado argentino", "Empanadas"],
+    "listaServ": ["Catering", "Reservas de mesa"],
+    "logo": "https://url-del-logo.com/logo36.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Calle Argentina 789",
+    "codigoPostal": 28036,
+    "paradaMetro": "Estación Argentina",
+    "locMapa": [40.486960044963105, -3.7198774629043663],
+    "telefono": ["345678901", "567890123"],
+    "email": "info@laparrillaargentina.com",
+    "web": "https://www.laparrillaargentina.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/laparrillaargentina" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/laparrillaargentina" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 75,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Seafood Lovers",
+    "categoria": "Restaurante",
+    "prodServ": "Productos",
+    "listaProd": ["Mariscos frescos", "Pescados del día"],
+    "listaServ": [],
+    "logo": "https://url-del-logo.com/logo37.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Avenida Mariscos 123",
+    "codigoPostal": 28037,
+    "paradaMetro": "Estación Mariscos",
+    "locMapa": [40.48542731171918, -3.7219011228221333],
+    "telefono": ["678901234", "890123456"],
+    "email": "info@seafoodlovers.com",
+    "web": "https://www.seafoodlovers.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/seafoodlovers" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/seafoodlovers" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 60,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Vegetarian Delights",
+    "categoria": "Restaurante",
+    "prodServ": "Productos",
+    "listaProd": ["Platos vegetarianos", "Ensaladas gourmet"],
+    "listaServ": [],
+    "logo": "https://url-del-logo.com/logo38.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Calle Vegetariana 456",
+    "codigoPostal": 28038,
+    "paradaMetro": "Estación Vegetariana",
+    "locMapa": [40.48280242471248, -3.725024780438176],
+    "telefono": ["456789012", "678901234"],
+    "email": "info@vegetariandelights.com",
+    "web": "https://www.vegetariandelights.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/vegetariandelights" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/vegetariandelights" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 47,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Pasta Italiana",
+    "categoria": "Restaurante",
+    "prodServ": "Productos",
+    "listaProd": ["Pasta fresca", "Salsas caseras"],
+    "listaServ": [],
+    "logo": "https://url-del-logo.com/logo39.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300",
+      "https://picsum.photos/200/300"
+    ],
+    "direccion": "Avenida Pasta 789",
+    "codigoPostal": 28039,
+    "paradaMetro": "Estación Pasta",
+    "locMapa": [40.480099184313744, -3.7259418248019984],
+    "telefono": ["890123456", "012345678"],
+    "email": "info@pastaitaliana.com",
+    "web": "https://www.pastaitaliana.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/pastaitaliana" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/pastaitaliana" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 92,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Burger Joint",
+    "categoria": "Restaurante",
+    "prodServ": "Productos",
+    "listaProd": ["Hamburguesas gourmet", "Patatas fritas"],
+    "listaServ": [],
+    "logo": "https://url-del-logo.com/logo40.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300?random=1",
+      "https://picsum.photos/200/300?random=2"
+    ],
+    "direccion": "Calle Hamburguesas 123",
+    "codigoPostal": 28040,
+    "paradaMetro": "Estación Hamburguesas",
+    "locMapa": [40.48080209006813, -3.728001276693672],
+    "telefono": ["234567890", "456789012"],
+    "email": "info@burgerjoint.com",
+    "web": "https://www.burgerjoint.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/burgerjoint" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/burgerjoint" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 58,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Mexican Fiesta",
+    "categoria": "Restaurante",
+    "prodServ": "Productos",
+    "listaProd": ["Tacos", "Burritos"],
+    "listaServ": [],
+    "logo": "https://url-del-logo.com/logo42.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300?random=3",
+      "https://picsum.photos/200/300?random=4"
+    ],
+    "direccion": "Calle Fiesta 789",
+    "codigoPostal": 28042,
+    "paradaMetro": "Estación Fiesta",
+    "locMapa": [40.481243912775255, -3.7307472125492365],
+    "telefono": ["678901234", "890123456"],
+    "email": "info@mexicanfiesta.com",
+    "web": "https://www.mexicanfiesta.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/mexicanfiesta" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/mexicanfiesta" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 64,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Pizzeria Italiana",
+    "categoria": "Restaurante",
+    "prodServ": "Productos",
+    "listaProd": ["Pizzas artesanales", "Calzones"],
+    "listaServ": [],
+    "logo": "https://url-del-logo.com/logo51.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300?random=5",
+      "https://picsum.photos/200/300?random=6"
+    ],
+    "direccion": "Calle Pizzeria 123",
+    "codigoPostal": 28051,
+    "paradaMetro": "Estación Pizzeria",
+    "locMapa": [40.48152507116575, -3.7290045994101284],
+    "telefono": ["012345678", "234567890"],
+    "email": "info@pizzeriaitaliana.com",
+    "web": "https://www.pizzeriaitaliana.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/pizzeriaitaliana" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/pizzeriaitaliana" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 62,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Thai Cuisine",
+    "categoria": "Restaurante",
+    "prodServ": "Ambos",
+    "listaProd": ["Comida tailandesa", "Curry"],
+    "listaServ": ["Catering", "Reservas de mesa"],
+    "logo": "https://url-del-logo.com/logo52.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300?random=7",
+      "https://picsum.photos/200/300?random=8"
+    ],
+    "direccion": "Avenida Thai 456",
+    "codigoPostal": 28052,
+    "paradaMetro": "Estación Thai",
+    "locMapa": [40.48825243862005, -3.713888750633209],
+    "telefono": ["345678901", "567890123"],
+    "email": "info@thaicuisine.com",
+    "web": "https://www.thaicuisine.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/thaicuisine" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/thaicuisine" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 85,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Café Parisien",
+    "categoria": "Restaurante",
+    "prodServ": "Productos",
+    "listaProd": ["Café gourmet", "Pastelería francesa"],
+    "listaServ": [],
+    "logo": "https://url-del-logo.com/logo53.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300?random=9",
+      "https://picsum.photos/200/300?random=10"
+    ],
+    "direccion": "Plaza Café 456",
+    "codigoPostal": 28053,
+    "paradaMetro": "Estación Café",
+    "locMapa": [40.486525477287394, -3.7151297024140897],
+    "telefono": ["456789012", "678901234"],
+    "email": "info@cafeparisien.com",
+    "web": "https://www.cafeparisien.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/cafeparisien" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/cafeparisien" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 74,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Casa del Taco",
+    "categoria": "Restaurante",
+    "prodServ": "Productos",
+    "listaProd": ["Tacos mexicanos", "Guacamole"],
+    "listaServ": [],
+    "logo": "https://url-del-logo.com/logo54.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300?random=11",
+      "https://picsum.photos/200/300?random=12"
+    ],
+    "direccion": "Calle Taco 789",
+    "codigoPostal": 28054,
+    "paradaMetro": "Estación Taco",
+    "locMapa": [40.48613389266542, -3.7108259760250784],
+    "telefono": ["678901234", "890123456"],
+    "email": "info@casadeltaco.com",
+    "web": "https://www.casadeltaco.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/casadeltaco" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/casadeltaco" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 91,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Deli Sandwiches",
+    "categoria": "Restaurante",
+    "prodServ": "Productos",
+    "listaProd": ["Sandwiches gourmet", "Ensaladas"],
+    "listaServ": [],
+    "logo": "https://url-del-logo.com/logo55.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300?random=13",
+      "https://picsum.photos/200/300?random=14"
+    ],
+    "direccion": "Avenida Deli 123",
+    "codigoPostal": 28055,
+    "paradaMetro": "Estación Deli",
+    "locMapa": [40.48198697172647, -3.7217041065298173],
+    "telefono": ["890123456", "012345678"],
+    "email": "info@delisandwiches.com",
+    "web": "https://www.delisandwiches.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/delisandwiches" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/delisandwiches" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 81,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Steakhouse Deluxe",
+    "categoria": "Restaurante",
+    "prodServ": "Productos",
+    "listaProd": ["Carnes a la parrilla", "Ensaladas"],
+    "listaServ": [],
+    "logo": "https://url-del-logo.com/logo42.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300?random=15",
+      "https://picsum.photos/200/300?random=16"
+    ],
+    "direccion": "Calle Steakhouse 123",
+    "codigoPostal": 28042,
+    "paradaMetro": "Estación Steakhouse",
+    "locMapa": [40.483483105917344, -3.7226282195581324],
+    "telefono": ["678901234", "890123456"],
+    "email": "info@steakhousedeluxe.com",
+    "web": "https://www.steakhousedeluxe.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/steakhousedeluxe" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/steakhousedeluxe" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 63,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Coffee & Tea House",
+    "categoria": "Cafetería",
+    "prodServ": "Ambos",
+    "listaProd": ["Café", "Té", "Pasteles"],
+    "listaServ": ["Catering", "Reservas de mesa"],
+    "logo": "https://url-del-logo.com/logo43.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300?random=17",
+      "https://picsum.photos/200/300?random=18"
+    ],
+    "direccion": "Avenida Café 789",
+    "codigoPostal": 28043,
+    "paradaMetro": "Estación Café",
+    "locMapa": [40.48071602200395, -3.7194811662802336],
+    "telefono": ["890123456", "012345678"],
+    "email": "info@coffeeandteahouse.com",
+    "web": "https://www.coffeeandteahouse.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/coffeeandtea" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/coffeeandtea" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 79,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Smoothie Paradise",
+    "categoria": "Cafetería",
+    "prodServ": "Productos",
+    "listaProd": ["Smoothies naturales", "Zumos frescos"],
+    "listaServ": [],
+    "logo": "https://url-del-logo.com/logo44.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300?random=19",
+      "https://picsum.photos/200/300?random=20"
+    ],
+    "direccion": "Calle Smoothie 123",
+    "codigoPostal": 28044,
+    "paradaMetro": "Estación Smoothie",
+    "locMapa": [40.47951167164129, -3.7237562283777037],
+    "telefono": ["234567890", "456789012"],
+    "email": "info@smoothieparadise.com",
+    "web": "https://www.smoothieparadise.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/smoothieparadise" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/smoothieparadise" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 54,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Bakery Delights",
+    "categoria": "Panadería",
+    "prodServ": "Productos",
+    "listaProd": ["Pan artesanal", "Bollería"],
+    "listaServ": [],
+    "logo": "https://url-del-logo.com/logo45.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300?random=21",
+      "https://picsum.photos/200/300?random=22"
+    ],
+    "direccion": "Avenida Panadería 456",
+    "codigoPostal": 28045,
+    "paradaMetro": "Estación Panadería",
+    "locMapa": [40.481613796399614, -3.71678946051516],
+    "telefono": ["345678901", "567890123"],
+    "email": "info@bakerydelights.com",
+    "web": "https://www.bakerydelights.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/bakerydelights" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/bakerydelights" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 87,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Ice Cream Dreams",
+    "categoria": "Heladería",
+    "prodServ": "Productos",
+    "listaProd": ["Helados artesanales", "Postres helados"],
+    "listaServ": [],
+    "logo": "https://url-del-logo.com/logo46.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300?random=23",
+      "https://picsum.photos/200/300?random=24"
+    ],
+    "direccion": "Calle Heladería 123",
+    "codigoPostal": 28046,
+    "paradaMetro": "Estación Heladería",
+    "locMapa": [40.478646715777536, -3.7201001146647155],
+    "telefono": ["456789012", "678901234"],
+    "email": "info@icecreamdreams.com",
+    "web": "https://www.icecreamdreams.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/icecreamdreams" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/icecreamdreams" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 69,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Juice Bar",
+    "categoria": "Cafetería",
+    "prodServ": "Ambos",
+    "listaProd": ["Zumos naturales", "Batidos"],
+    "listaServ": ["Catering", "Reservas de mesa"],
+    "logo": "https://url-del-logo.com/logo47.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300?random=25",
+      "https://picsum.photos/200/300?random=26"
+    ],
+    "direccion": "Avenida Zumos 789",
+    "codigoPostal": 28047,
+    "paradaMetro": "Estación Zumos",
+    "locMapa": [40.484603188894475, -3.7208024618165823],
+    "telefono": ["678901234", "890123456"],
+    "email": "info@juicebar.com",
+    "web": "https://www.juicebar.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/juicebar" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/juicebar" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 81,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Tea Time",
+    "categoria": "Cafetería",
+    "prodServ": "Ambos",
+    "listaProd": ["Té", "Pasteles", "Sandwiches"],
+    "listaServ": ["Catering", "Reservas de mesa"],
+    "logo": "https://url-del-logo.com/logo48.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300?random=27",
+      "https://picsum.photos/200/300?random=28"
+    ],
+    "direccion": "Calle Té 123",
+    "codigoPostal": 28048,
+    "paradaMetro": "Estación Té",
+    "locMapa": [40.49051518665052, -3.708281516927669],
+    "telefono": ["890123456", "012345678"],
+    "email": "info@teatime.com",
+    "web": "https://www.teatime.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/teatime" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/teatime" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 70,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Brewing Happiness",
+    "categoria": "Cafetería",
+    "prodServ": "Ambos",
+    "listaProd": ["Café", "Té", "Bocadillos"],
+    "listaServ": ["Catering", "Reservas de mesa"],
+    "logo": "https://url-del-logo.com/logo49.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300?random=29",
+      "https://picsum.photos/200/300?random=30"
+    ],
+    "direccion": "Avenida Brewing 789",
+    "codigoPostal": 28049,
+    "paradaMetro": "Estación Brewing",
+    "locMapa": [40.48682970017505, -3.7068389916307395],
+    "telefono": ["678901234", "890123456"],
+    "email": "info@brewinghappiness.com",
+    "web": "https://www.brewinghappiness.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/brewinghappiness" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/brewinghappiness" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 75,
+    "aprobada": true
+  },
+  {
+    "nameEmpresa": "Donut House",
+    "categoria": "Panadería",
+    "prodServ": "Productos",
+    "listaProd": ["Donuts", "Café"],
+    "listaServ": [],
+    "logo": "https://url-del-logo.com/logo50.png",
+    "galeriaFotos": [
+      "https://picsum.photos/200/300?random=31",
+      "https://picsum.photos/200/300?random=32"
+    ],
+    "direccion": "Calle Donut 123",
+    "codigoPostal": 28050,
+    "paradaMetro": "Estación Donut",
+    "locMapa": [40.48481043571188, -3.715485571141242],
+    "telefono": ["012345678", "234567890"],
+    "email": "info@donuthouse.com",
+    "web": "https://www.donuthouse.com",
+    "redes": [
+      { "redSocial": "Twitter", "url": "https://twitter.com/donuthouse" },
+      { "redSocial": "Facebook", "url": "https://facebook.com/donuthouse" }
+    ],
+    "whatsapp": true,
+    "telWhatsapp": "666778899",
+    "condiciones": true,
+    "popularidad": 68,
+    "aprobada": true
+  }
+]

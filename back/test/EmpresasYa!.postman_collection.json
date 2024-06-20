@@ -1,0 +1,295 @@
+{
+	"info": {
+		"_postman_id": "6fcaacc5-6a64-40c7-adc0-fbb0a04b4157",
+		"name": "EmpresasYa!",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33245704"
+	},
+	"item": [
+		{
+			"name": "USER",
+			"item": [
+				{
+					"name": "POST USER",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nombre\": \"Alejandro\",\n  \"apellidos\": \"Paz Montes\",\n  \"telefono\": 663315218,\n  \"password\": \"1234abc!\",\n  \"email\": \"alepazmont@gmail.com\",\n  \"conditions\": true,\n  \"tipoUsuario\": \"agencia publicitaria\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/user/register",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST USER LOGIN",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"password\": \"1234abc!\",\n  \"email\": \"alepazmont@gmail.com\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/user/login",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST PASSWORD VALIDATION",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"plainTextPassword\": \"1234abc!\",\n  \"hash\": \"$2b$10$ZlM8VX1h0O.pgWbHaRm.6eIdWZ9UPJ3ogL1E4Mxhzn4Xk4/KRC0dG\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/password/validate",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"password",
+								"validate"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "EMPRESAS",
+			"item": [
+				{
+					"name": "GET ALL EMPRESAS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/empresas/",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"empresas",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ID EMPRESAS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/empresas/6658f7e943d21b5c6b116f6c",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"empresas",
+								"6658f7e943d21b5c6b116f6c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST EMPRESAS",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NThmMTIyOGE4Njg1NThlYWI4MmFjOCIsImVtYWlsIjoiYWxlcGF6bW9udEBnbWFpbC5jb20iLCJpYXQiOjE3MTcxMDQ5NzYsImV4cCI6MTcxNzE5MTM3Nn0.8QsNTQTRsM--PaQx6J7foykqWOA82qhSVgqBqOH4lc0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n      \"nameEmpresa\": \"Mi Empresa 1\",\n      \"categoria\": \"Tecnología\",\n      \"prodServ\": \"Ambos\",\n      \"listaProdServ\": [\"Producto A\", \"Servicio B\"],\n      \"logo\": \"https://url-del-logo.com/logo1.png\",\n      \"galeriaFotos\": [\"https://url-de-imagen1.com/foto1.jpg\", \"https://url-de-imagen1.com/foto2.jpg\"],\n      \"direccion\": \"Calle Ficticia 123\",\n      \"codigoPostal\": 28001,\n      \"paradaMetro\": \"Estación Ficticia\",\n      \"locMapa\": [40.4165, -3.70256],\n      \"telefono\": [\"123456789\", \"987654321\"],\n      \"email\": \"miempresa1@example.com\",\n      \"web\": \"https://www.miempresa1.com\",\n      \"redes\": [\"https://twitter.com/miempresa1\", \"https://facebook.com/miempresa1\"],\n      \"condiciones\": true\n    }\n  ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/empresas/register",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"empresas",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST MANY EMPRESAS",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NThmMTIyOGE4Njg1NThlYWI4MmFjOCIsImVtYWlsIjoiYWxlcGF6bW9udEBnbWFpbC5jb20iLCJpYXQiOjE3MTcxMDQ5NzYsImV4cCI6MTcxNzE5MTM3Nn0.8QsNTQTRsM--PaQx6J7foykqWOA82qhSVgqBqOH4lc0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n      \"nameEmpresa\": \"Mi Empresa 1\",\n      \"categoria\": \"Tecnología\",\n      \"prodServ\": \"Ambos\",\n      \"listaProdServ\": [\"Producto A\", \"Servicio B\"],\n      \"logo\": \"https://url-del-logo.com/logo1.png\",\n      \"galeriaFotos\": [\"https://url-de-imagen1.com/foto1.jpg\", \"https://url-de-imagen1.com/foto2.jpg\"],\n      \"direccion\": \"Calle Ficticia 123\",\n      \"codigoPostal\": 28001,\n      \"paradaMetro\": \"Estación Ficticia\",\n      \"locMapa\": [40.4165, -3.70256],\n      \"telefono\": [\"123456789\", \"987654321\"],\n      \"email\": \"miempresa1@example.com\",\n      \"web\": \"https://www.miempresa1.com\",\n      \"redes\": [\"https://twitter.com/miempresa1\", \"https://facebook.com/miempresa1\"],\n      \"condiciones\": true\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/empresas/register",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"empresas",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PATCH EMPRESAS",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NThmMTIyOGE4Njg1NThlYWI4MmFjOCIsImVtYWlsIjoiYWxlcGF6bW9udEBnbWFpbC5jb20iLCJpYXQiOjE3MTcxMDQ5NzYsImV4cCI6MTcxNzE5MTM3Nn0.8QsNTQTRsM--PaQx6J7foykqWOA82qhSVgqBqOH4lc0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"nameEmpresa\": \"Mi Empresa 1\",\n        \"categoria\": \"Tecnología\",\n        \"prodServ\": \"Ambos\",\n        \"listaProd\": [\"Producto A\"],\n        \"listaServ\": [\"Servicio B\"],\n        \"logo\": \"https://url-del-logo.com/logo1.png\",\n        \"galeriaFotos\": [\"https://url-de-imagen1.com/foto1.jpg\", \"https://url-de-imagen1.com/foto2.jpg\"],\n        \"direccion\": \"Calle Ficticia 123\",\n        \"codigoPostal\": 28001,\n        \"paradaMetro\": \"Estación Ficticia\",\n        \"locMapa\": [40.4165, -3.70256],\n        \"telefono\": [\"123456789\", \"987654321\"],\n        \"email\": \"miempresa1@example.com\",\n        \"web\": \"https://www.miempresa1.com\",\n        \"redes\": [\"https://twitter.com/miempresa1\", \"https://facebook.com/miempresa1\"],\n        \"condiciones\": true\n      }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/empresas/register",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"empresas",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE EMPRESAS",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NThmMTIyOGE4Njg1NThlYWI4MmFjOCIsImVtYWlsIjoiYWxlcGF6bW9udEBnbWFpbC5jb20iLCJpYXQiOjE3MTcxMDQ5NzYsImV4cCI6MTcxNzE5MTM3Nn0.8QsNTQTRsM--PaQx6J7foykqWOA82qhSVgqBqOH4lc0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/empresas/6659b1b73a260f890c23a6b8",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"empresas",
+								"6659b1b73a260f890c23a6b8"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
