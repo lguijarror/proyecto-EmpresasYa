@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <div className="home-page">  
       <div className="content">
-        <MapaEmpresas apiKey="AIzaSyCj09lN8tpjDD7lrEyumuqOGEtG3_utP8k" />
+        <MapaEmpresas apiKey="" />
 
         <InfoComercial/>
         
